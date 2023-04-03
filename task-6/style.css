@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+#num-1, #num-2 {
+    text-align: center;
+}
+#num-1 {
+    height: 23px;
+    padding-left: 5px;
+}
+#num-2 {
+    margin: 10px 0 10px;
+    height: 23px;
+    padding-left: 5px;
+}
+.block-img {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.img-item {
+    width: 145px;
+    height: 100px;
+    background-size: cover;
+}
